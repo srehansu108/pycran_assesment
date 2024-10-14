@@ -1,0 +1,35 @@
+/* App.css */
+.app {
+    display: flex;
+  }
+  
+  .main-content {
+    width: 81%;
+    position: relative;
+    top: 20px;
+    margin-left: 16.5rem;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(248, 248, 248, 1);
+    right: 10px;
+    height: 94vh;
+  }
+
+  @media (max-width: 768px) {
+    .main-content {
+      margin-left: 3rem;
+      width: calc(100% - 80px);
+      height: 100%;
+      margin-bottom: 50px;
+      height: 94vh;
+    }
+  }
+  @media (max-width: 1000px) {
+    .main-content {
+      margin-left:3rem;
+      width: calc(100% - 80px);
+      height: 100%;
+      margin-bottom: 50px;
+      height: 94vh;
+    }
+  }

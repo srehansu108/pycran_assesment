@@ -1,0 +1,21 @@
+# Ignore environment variables file
+.env
+.env.local
+.env.*.local
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Miscellaneous
+*.DS_Store
