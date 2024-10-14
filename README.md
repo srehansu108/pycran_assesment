@@ -33,16 +33,14 @@ The **Pycran Dashboard Project** is a comprehensive web application designed to 
 ## 💻 Technologies Used
 - **Frontend:** 
   - React.js
-  - Redux
   - Vite
-  - CSS Modules or Styled Components
+  - Styled Components
 - **Backend:** 
   - Node.js
   - Express.js
-  - MongoDB or PostgreSQL
+  - PostgreSQL
 - **Fetching Data:** 
   - Python
-  - Flask
 - **Others:**
   - dotenv for environment variable management
   - Axios for making API calls
@@ -60,3 +58,72 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/srehansu108/pycran_assesment.git
 cd pycran_assesment
+```
+
+### 🔧 Frontend Installation
+Navigate to the Frontend folder and install dependencies:
+```bash
+cd Frontend
+npm install
+```
+### ⚙️ Backend Installation
+Navigate to the Backend folder and install dependencies:
+```bash
+cd Backend
+npm install
+```
+Install any required Python packages (make sure you have a virtual environment set up):
+```bash
+pip install -r requirements.txt
+```
+
+### 🔑 Environment Variables
+Create a .env file in the Fetching Data folder with the following content:
+```bash
+API_KEY=your_api_key
+DATABASE_URL=your_database_url
+Make sure to replace your_api_key and your_database_url with actual values relevant to your project.
+```
+
+### 🏗️ Usage
+To start the application, follow these commands:
+
+### 🌐 Start Backend Server
+```bash
+Copy code
+npm start
+```
+
+### 🚀 Start Frontend Server
+In another terminal, navigate to the Frontend folder and run:
+```bash
+npm run dev
+```
+
+### 📜 Run Data Fetching Script
+Run your Python script as needed:
+```bash
+python dataFetch.py
+```
+### 📂 Folder Structure
+```bash
+Pycran_assessment/
+│
+├── Frontend/                # Frontend application
+│   ├── src/                 # Source code
+│   ├── public/              # Public assets
+│   ├── .gitignore           # Git ignore file
+│   └── package.json         # Frontend dependencies
+│
+├── Backend/                 # Backend application
+│   ├── src/                 # Source code
+│   ├── .gitignore           # Git ignore file
+│   └── package.json         # Backend dependencies
+│
+├── Fetching Data/           # Data fetching scripts
+│   ├── .env                 # Environment variables
+│   ├── script.py            # Python script
+│   └── requirements.txt     # Python dependencies
+│
+└── README.md                # Project documentation
+```
